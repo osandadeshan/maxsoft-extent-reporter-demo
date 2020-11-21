@@ -4,6 +4,12 @@
 The main reason for developing this plugin is to provide an easy way to generate the Extent report for test automation.  
 ![](https://github.com/osandadeshan/maxsoft-extent-reporter-demo/blob/master/extent-report-sample.PNG)
 
+## Advantages
+- Automatically generates the Extent report after the test execution.
+- Reporter details can be configured through a property file.
+- No need to implement classes for Extent reporting.
+- Easy to use.
+
 ## Technologies/Frameworks Used
 - Java
 - Extent Report
@@ -18,18 +24,13 @@ The main reason for developing this plugin is to provide an easy way to generate
 ## Supported Languages
 - Java
 
-## Advantages
-- Automatically generates the Extent report after the test execution.
-- Reporter details can be configured through a property file.
-- No need to implement classes for Extent reporting.
-- Easy to use.
-
-## Pre Requisites
+## How to use
+**Pre-Requisites:**
 1. Java
 2. Maven
 
-## How to use
-1. Add **MaxSoft Extent Reporter** dependency into pom.xml
+**Steps:**
+1. Add **MaxSoft Extent Reporter** dependency into "**pom.xml**"
 ```xml
     <repositories>
         <repository>
