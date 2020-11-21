@@ -38,7 +38,7 @@ The main reason for developing this plugin is to provide an easy way to generate
         </repository>
     </repositories>
 	
-	<dependencies>
+    <dependencies>
         <dependency>
             <groupId>com.github.osandadeshan</groupId>
             <artifactId>maxsoft-extent-reporter</artifactId>
