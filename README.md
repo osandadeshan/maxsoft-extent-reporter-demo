@@ -30,7 +30,7 @@ The main reason for developing this plugin is to provide an easy way to generate
 2. Maven
 
 **Steps:**
-1. Add **MaxSoft Extent Reporter** dependency into "**pom.xml**"
+1. Add "**MaxSoft Extent Reporter**" dependency into "**pom.xml**".
 ```xml
     <repositories>
         <repository>
@@ -48,7 +48,7 @@ The main reason for developing this plugin is to provide an easy way to generate
     </dependencies>
 ```
 
-2. Create "**extent.properties**" in "***src/test/resources/extent.properties***"
+2. Create "**extent.properties**" in "***src/test/resources/extent.properties***".
 ```xml
 # Extent Report Configs
 extent_reporter_theme=dark
@@ -62,20 +62,20 @@ operating_system=Windows 10 - 64 Bit
 test_developer=Osanda Nimalarathna
 ```
 
-3. In the test automation code, find the place you are launching the WebDriver
+3. In the test automation code, find the place you are launching the WebDriver.
 
-4. Pass your WebDriver object to the "**setDriver()**" method which can be imported from "***com.maxsoft.extentreport.DriverHolder.setDriver***"
+4. Pass your WebDriver object to the "**setDriver()**" method which can be imported from "***com.maxsoft.extentreport.DriverHolder.setDriver***".
 ```java
 WebDriver driver = new ChromeDriver();
 setDriver(driver);
 ```
 
-5.  Update the places where your are using WebDriver object, into **getDriver()** method which can be imported from "***com.maxsoft.extentreport.DriverHolder.getDriver***"
+5.  Update the places where your are using WebDriver object, into "**getDriver()**" method which can be imported from "***com.maxsoft.extentreport.DriverHolder.getDriver***".
 ```java
 getDriver().manage().window().maximize();
 ```
 
-6. An example test class
+6. An example test class.
 ```java
 package test;
 
@@ -144,7 +144,7 @@ public class LoginTest {
 
 ```
 
-7. Create the TestNG.xml by adding the MaxSoft Extent Reporter listener
+7. Create the "**TestNG.xml**" by adding the "**MaxSoft Extent Reporter listener**" class.
 ```xml
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Regression Test Suite">
@@ -158,6 +158,8 @@ public class LoginTest {
     </test>
 </suite>
 ```
+
+8. Run the "**TestNG.xml**".
 
 ## License
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/> [MaxSoft Extent Reporter](https://medium.com/maxsoft-extent-reporter) is released under [MIT License](https://opensource.org/licenses/MIT)
