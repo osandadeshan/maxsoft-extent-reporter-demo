@@ -2,6 +2,7 @@
 
 ## Introduction
 The main reason for developing this plugin is to provide an easy way to generate the Extent report for test automation.  
+![](https://github.com/osandadeshan/maxsoft-extent-reporter-demo/blob/master/extent-report-sample.PNG)
 
 ## Technologies/Frameworks Used
 - Java
