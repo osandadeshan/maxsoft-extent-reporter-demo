@@ -47,12 +47,8 @@ The main reason for developing this plugin is to provide an easy way to generate
     </dependencies>
 ```
 
-2. Create "**config.properties**" in "***src/test/resources/config.properties***"
+2. Create "**extent.properties**" in "***src/test/resources/extent.properties***"
 ```xml
-# Test Configs
-application_url=http://automationpractice.com/index.php?controller=authentication&back=my-account
-browser=Chrome
-
 # Extent Report Configs
 extent_reporter_theme=dark
 capture_screenshot_on_failure=true
@@ -60,6 +56,7 @@ extent_document_title=Test Execution Report
 extent_reporter_name=Test Execution Report
 application_name=AutomationPractice.com
 environment=Production
+browser=Chrome
 operating_system=Windows 10 - 64 Bit
 test_developer=Osanda Nimalarathna
 ```
