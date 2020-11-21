@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite">
+    <listeners>
+        <listener class-name="com.maxsoft.extentreport.ExtentReportListener"/>
+    </listeners>
+    <test name="Regression Test">
+        <classes>
+            <class name="test.LoginTest" />
+        </classes>
+    </test>
+</suite>
