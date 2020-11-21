@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 
 import static com.maxsoft.extentreport.DriverHolder.getDriver;
 import static com.maxsoft.extentreport.DriverHolder.setDriver;
-import static com.maxsoft.extentreport.PropertyFileReader.getProperty;
 import static org.testng.Assert.assertEquals;
 
 /**
@@ -33,7 +32,7 @@ public class LoginTest {
         WebDriverManager.chromedriver().setup();
         setDriver(new ChromeDriver());
         getDriver().manage().window().maximize();
-        getDriver().get(getProperty("application_url"));
+        getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
         emailTextBox = getDriver().findElement(By.id("email"));
         passwordTextBox = getDriver().findElement(By.id("passwd"));
         signInButton = getDriver().findElement(By.id("SubmitLogin"));
