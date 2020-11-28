@@ -43,7 +43,7 @@ The main reason for developing this plugin is to provide an easy way to generate
         <dependency>
             <groupId>com.github.osandadeshan</groupId>
             <artifactId>maxsoft-extent-reporter</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </dependency>
     </dependencies>
 ```
